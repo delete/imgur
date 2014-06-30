@@ -31,12 +31,6 @@ function upload($img){
 		$link = 'Link of image: http://imgur.com/'.$link[1];
 		return $link;
 	}
-	elseif($ok[1] === 'false'){
-		$erro = 'An error occurred, please try again later.';
-		$erro = $erro."\n";
-		$erro = $erro.'Or report in gildasio.net';
-		return $erro;
-	}
 	else{
 		$erro = 'An error occurred, please try again later.';
 		$erro = $erro."\n";
